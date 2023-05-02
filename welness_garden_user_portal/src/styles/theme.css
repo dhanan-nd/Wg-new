@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'AquawaxBold';
+    src: url('../assets/fonts/AquawaxBold.ttf') format('truetype');
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'AquawaxMedium';
+    src: url('../assets/fonts/AquawaxMedium.ttf') format('truetype');
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: 'AquawaxLight';
+    src: url('../assets/fonts/AquawaxLight.ttf') format('truetype');
+    font-weight: normal;
+  }  
