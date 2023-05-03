@@ -2,7 +2,7 @@
 import { SectionTitle, TopHeaderText } from "../../components/typographies/typography"
 import { useTheme, Box, Stack, Typography, useMediaQuery, Container } from "@mui/material"
 import { SecondaryButton } from "../../components/buttons/buttons";
-import { BannerContainer, ContainerBox, MainHeader } from "../../components/box/box";
+import { StyledContainer, ContainerBox, MainHeader } from "../../components/box/box";
 import './header.css'
 import LanguageIcon from '@mui/icons-material/Language';
 import PlaceOutlinedIcon from '@mui/icons-material/PlaceOutlined';
@@ -10,6 +10,7 @@ import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import headerLogo from '../../assets/images/headerLogo.svg'
 import { Banner } from "../../components/banner/banner";
 import bannerImag from '../../assets/images/banner.jpg'
+import banner2Imag from '../../assets/images/home_carousel_2.png.jpg'
 import { useState } from "react";
 import { MenuDrawer } from "../../components/drawer/menuDrawer";
 const DeskTopHeader = () => {
@@ -60,9 +61,9 @@ export const Header = () => {
                 <img src={headerLogo} alt="wellness-garden-logo" className="header_logo" />
             </Box>
             {isSmallScreen ? <MobileHeader /> : <DeskTopHeader />}</MainHeader>
-            <BannerContainer>
-            <Banner url={bannerImag} />
-            </BannerContainer>
+            <StyledContainer>
+            <Banner url={banner2Imag} />
+            </StyledContainer>
         </Box>
 
     )

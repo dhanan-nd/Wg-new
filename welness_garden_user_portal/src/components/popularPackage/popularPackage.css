@@ -1,0 +1,16 @@
+.swiper-button-prev {
+    margin-left: -67px;
+    color: grey;
+}
+
+.swiper-button-next {
+    margin-right: -48px;
+    color: grey,
+}
+
+@media (max-width: 600px) {
+    .swiper-button-prev {}
+
+    .swiper-button-next {}
+
+}

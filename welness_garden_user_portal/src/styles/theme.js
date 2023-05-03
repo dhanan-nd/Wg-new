@@ -11,7 +11,7 @@ export const theme = createTheme({
             contrastText: '#FFFFFF',
         },
         secondary: {
-            main: "#00256D" //Cool Black 
+            main: "#00256D", //Cool Black 
         },
         buttonPrimary: {
             main: "#F67D6D", //Salmon 
@@ -35,6 +35,9 @@ export const theme = createTheme({
         },
         textSecondary: {
             main: "#FFFFFF" //White
+        },
+        cardActive:{
+            main:"#E3EDFC"
         }
     },
     typography: {

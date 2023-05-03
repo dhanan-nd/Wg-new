@@ -1,4 +1,4 @@
-import { Box, Container, styled } from "@mui/material";
+import { Box, Container, Stack, styled } from "@mui/material";
 
 
 
@@ -21,8 +21,9 @@ export const MainHeader = styled(Container)(({ theme }) => ({
 }))
 
 
-export const BannerContainer = styled(Container)(({ theme }) => ({
-    maxWidth: '1700px !important'
+export const StyledContainer = styled(Container)(({ theme }) => ({
+    maxWidth: '1700px !important',
+    position:"relative"
 }))
 
 
@@ -48,4 +49,10 @@ export const BannerBox = styled(Box)(({ theme, url }) => ({
 export const TextBox = styled((Box))(({ theme }) => ({
     display: "flex",
     justifyContent: "center",
+}))
+
+
+export const RowStack = styled((Stack))(({theme})=>({
+    display:"flex",
+    flexDirection:"row"
 }))

@@ -7,7 +7,7 @@ import { SectionTitle, SubText } from "../../components/typographies/typography"
 export const Footer = () => {
     return (
         <>
-            <BannerBox url={bannerImg} sx={{ height: 293 }} >
+            <BannerBox url={bannerImg} sx={{ height: 293 ,mt:10}} >
                 <TextBox>
                     <Stack spacing={1} >
                         <SectionTitle variant="primaryTitle" color="textSecondary" sx={{ fontSize: 30 }} >Wellness Garden</SectionTitle>
